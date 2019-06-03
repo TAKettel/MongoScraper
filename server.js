@@ -79,12 +79,12 @@ const newScrape = function() {
 
       // Create a new Article using the `result` object built from scraping
           // Avoid duplicating data, hopefully.  Doubtful that this is working since it doesn't seem to want to auto-scrape either.
-      for (i = 0; i < db.Article.length; i++) {
-        console.log(db)
-        console.log(result.title);
-        if (result.title === db.Article[i].title) {
-          return
-        } else {
+      // for (i = 0; i < db.Article.length; i++) {
+      //   console.log(db)
+      //   console.log(result.title);
+      //   if (result.title === db.Article[i].title) {
+      //     return
+      //   } else {
       
         db.Article.create(result)
         .then(function(dbArticle) {
@@ -96,7 +96,7 @@ const newScrape = function() {
           console.log(err);
         });
       };
-    };
+    // };
     });
 
     // Send a message to the client
