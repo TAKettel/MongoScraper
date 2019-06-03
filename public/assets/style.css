@@ -1,0 +1,18 @@
+
+.mainTitle {
+    text-align: center;
+    margin: 20px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+#articleSpace {
+    margin: auto;
+}
+
+.articleColumn {
+    padding: 0;
+    max-width: 90%;
+}

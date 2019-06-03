@@ -2,6 +2,10 @@
 
 ## Instructions
 
+**NOTE**: If you want to earn complete credit for your work, you must use all five of these packages in your assignment:
+       1. express           2. express-handlebars       3. mongoose           4. cheerio          5. axios
+
+
 * Create an app that accomplishes the following:
 
   1. Whenever a user visits your site, the app should scrape stories from a news outlet of your choice and display them for the user. Each scraped article should be saved to your application database. At a minimum, the app should scrape and display the following information for each article:
