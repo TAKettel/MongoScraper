@@ -95,7 +95,7 @@ const newScrape = function() {
           // If an error occurred, log it
           console.log(err);
         });
-      };
+      // };
     // };
     });
 
